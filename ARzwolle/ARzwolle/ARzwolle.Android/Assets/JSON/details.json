@@ -1,0 +1,41 @@
+﻿{
+  "DetailInformation": [
+    {
+      "Id": 1,
+      "Title": "Slimme regenton tegen stortbui",
+      "Img": "regenton.jpg",
+      "Text": "De klimaatverandering verandert het weer. Een van de gevolgen is wateroverlast door stortbuien. Riolen raken overbelast en straten komen blank te staan. We moeten op zoek naar klimaatbestendige maatregelen. Vaak ingrijpend, grootschalig en kostbaar. Maar dicht bij huis kun je ook iets doen om de capaciteit van het riool te ontlasten. Met regentonnen. Door ze ‘slim’ te maken en te koppelen aan bijvoorbeeld buienradar. Bij een buienalert stroomt de ton leeg en is klaar voor de bui. Een pientere manier om overbelasting van het riool tegen te gaan.",
+      "ReadMore": "Lees meer",
+      "LinkReadMore": "",
+      "TrackerId": 1
+    },
+    {
+      "Id": 2,
+      "Title": "Slimme regenton tegen stortbui",
+      "Img": "regenton.jpg",
+      "Text": "Door voldoende regentonnen te koppelen aan de regenpijpen vang je bij een hevige stortbui veel water op. Je maakt zo beter gebruik van de capaciteit van het riool en voorkomt bovendien een kostbare verbreding. Hoeveel regentonnen nodig zijn hangt af van de hoeveelheid regenval in je woonregio. Behalve als opvang bij stortbuien en voor planten in de tuin is het water in de regenton ook te gebruiken voor toilet, wasmachine en zelfs wasmachine. Leg samen met de buren een regentonnen netwerk aan. Als muur, fietsenrek, brievenbus of kunstwerk.",
+      "ReadMore": "Lees meer",
+      "LinkReadMore": "https://www.zwolle.nl/",
+      "TrackerId": 2
+
+    },
+    {
+      "Id": 3,
+      "Title": "Bomen helpen stadsklimaat",
+      "Img": "",
+      "Text": "De klimaatverandering wordt de komende jaren duidelijker merkbaar. Vooral in de stad waar veel verhard oppervlakte is. Er zijn meer stortbuien en langere droogteperioden. De temperatuur loopt hier op bepaalde momenten in het jaar veel hoger op dan enige jaren geleden. Het gevolg is hittestress. Airco’s draaien overuren. Het is een milieuonvriendelijke oplossing. Een prima manier om warmte te bestrijden is de boom. Een boom is een goede milieubewuste bron om de stad af te koelen. Een boom is niet alleen milieubewuster, maar koelt ook veel beter.",
+      "ReadMore": "Read more",
+      "LinkReadMore": "https://www.zwolle.nl/",
+      "TrackerId": 1
+    },
+    {
+      "Id": 4,
+      "Title": "Bomen helpen stadsklimaat",
+      "Img": "",
+      "Text": "Geen enkele boom is gelijk. Ze zijn er in veel soorten en maten. Een geschikte gezonde volwassen boom levert een verkoelend effect dat gelijk is aan ongeveer 10 aircosystemen, gratis en voor niets. Belangrijk bij de keuze voor het soort boom zijn schaduwwerking en verdamping. Aan de hand van deze criteria kan de beste boom voor klimaatadaptatie in de stad worden gekozen. Een grote kroon, veel bladoppervlak en lang blad dragend zijn positieve eigenschappen. Veel bomen hebben dat en kunnen bijdragen aan klimaatadaptatie. Actie is belangrijk.",
+      "ReadMore": "Read more",
+      "LinkReadMore": "",
+      "TrackerId": 2
+    }
+  ]
+}

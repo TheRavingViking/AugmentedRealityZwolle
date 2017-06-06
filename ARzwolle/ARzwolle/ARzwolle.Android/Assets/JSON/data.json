@@ -1,0 +1,16 @@
+{
+  "QRcode": [
+    {
+      "Id": 1,
+      "Name": "ARZwolle",
+      "Description": "iets",
+      "Tracker": "tracker"
+    },
+    {
+      "Id": 2,
+      "Name": "Tree",
+      "Description": "iets",
+      "Tracker": "someOtherName"
+    }
+  ]
+}

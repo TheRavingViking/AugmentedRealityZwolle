@@ -1,0 +1,49 @@
+{ "GpsLocations" : [
+    {
+      "Title": "Stadshagenallee",
+      "Desc": "QR code",
+      "Lat": 52.539076,
+      "Long": 6.040455
+    },
+    {
+      "Title": "Mastenbroekerallee",
+      "Desc": "QR code",
+      "Lat": 52.538632,
+      "Long": 6.054478
+    },
+    {
+      "Title": "Twistvlietpark",
+      "Desc": "QR code",
+      "Lat": 52.532136,
+      "Long": 6.060854
+    },
+    {
+      "Title": "Hasselterdijk",
+      "Desc": "QR code",
+      "Lat": 52.529461,
+      "Long": 6.069518
+    },
+    {
+      "Title": "Winkelcentrum",
+      "Desc": "QR code",
+      "Lat": 52.533329,
+      "Long": 6.055806
+    },
+    {
+      "Title": "KBS de vlieger",
+      "Desc": "QR code",
+      "Lat": 52.532474,
+      "Long": 6.050305
+    },
+    {
+      "Title": "Fonteinkruid",
+      "Desc": "QR code",
+      "Lat": 52.540209,
+      "Long": 6.060666
+    }
+  ]
+}
+
+
+
+

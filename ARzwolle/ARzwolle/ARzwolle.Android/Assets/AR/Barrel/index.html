@@ -1,0 +1,69 @@
+﻿
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta content="width=device-width,initial-scale=1,maximum-scale=5,user-scalable=yes" name="viewport">
+
+    <title></title>
+
+    <script src="https://www.wikitude.com/libs/architect.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="ade.js"></script>-->
+
+    <link rel="stylesheet" href="css/default.css">
+   
+</head>
+
+<body>
+    
+
+
+</body>
+<script> 
+// setting all the buttons
+
+// setting the tracker
+var tracker = new AR.ClientTracker("tracker.wtc");
+
+var barrel = new AR.Model("Barrel.wt3", {
+        scale: {
+            x: 0.025,
+            y: 0.025,
+            z: 0.025
+        },
+        rotate: {
+            z: -25
+        }
+    });
+
+// making the object rotate
+this.rotationAnimation = new AR.PropertyAnimation(this.barrel, "rotate.z", -25, 335, 20000);
+
+
+var pageOne = new AR.ImageTrackable(tracker, "*", {
+        drawables: {
+            cam: barrel
+        }
+
+
+    });
+
+
+// -1 will make sure that it will continue to rotate
+rotationAnimation.start(-1);
+
+
+// when the info button gets pressed 
+
+
+</script>
+</html>
+<!-- snapped: {
+      offsetX: 0.45,
+      offsetY: 0.45,
+      opacity: 0.2,
+      carScale: 0.08,
+      carTranslateY: 0
+} -->

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ARzwolle;assembly=ARzwolle.Android"
+             x:Class="ARzwolle.MasterPage">
+
+    <MasterDetailPage.Master>
+        <ContentPage Padding="10" BackgroundColor="White" Title="Menu">
+            <ContentPage.Content>
+                <StackLayout Margin="5,30,5,5">
+                    <Label Text="Menu">
+                    </Label>
+                    <Button x:Name="IntroductionButton" Text="Introduction" Clicked="IntroductionButton_Clicked"></Button>
+                    <Button x:Name="GoogleMapsButton" Text="Google Maps" Clicked="GoogleMapsButton_Clicked"></Button>
+                    <Button x:Name="QRcodeScannerButton" Text="QR Scanner" Clicked="QRcodeScannerButton_Clicked"></Button>
+
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    
+    <MasterDetailPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <local:GoogleMaps />
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+    
+</MasterDetailPage>

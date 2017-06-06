@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ARzwolle.DetailPage"
+             Title="Title van Item">
+
+   <!-- <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                    iOS="20, 40, 20, 20"
+                    Android="20, 20, 20, 20"
+                    WinPhone="20, 20, 20, 20" />
+
+    </ContentPage.Padding>-->
+
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text = "Menu" Priority="0" Order="Primary" Clicked="MenuItem_OnClicked" Icon="ic_home_white_48dp.png"/>
+    </ContentPage.ToolbarItems>
+
+
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            
+            <StackLayout VerticalOptions="Start">
+
+                <WebView x:Name="WebView1" MinimumHeightRequest="180" HeightRequest="180" Source="https://www.youtube.com/embed/b_DTnOzYTR4" HorizontalOptions="Fill" VerticalOptions="Fill" IsVisible="True"/>
+                <Image x:Name="image" Source="regenton.jpg" IsVisible="false" />
+
+               
+            </StackLayout>
+             
+            <StackLayout VerticalOptions="CenterAndExpand" Padding="20,0,20,0">
+                <Label x:Name ="TextTitle" Text="Title voor tekst" VerticalOptions="Start" HorizontalOptions="Start" FontAttributes="Bold" FontSize="20"/>
+                <Label x:Name="DetailText"></Label>
+            </StackLayout>
+
+            <StackLayout x:Name="ReadMoreStackLayout" VerticalOptions="End" IsVisible="True" Padding="20,0,20,0">
+                <Label x:Name ="ReadMoreTitle" Text="Title voor read more (optioneel)" VerticalOptions="Start" HorizontalOptions="Start" FontAttributes="Bold" FontSize="20"/>
+                <Button x:Name="ReadMoreButton" Text="Read more" Margin="0,0,0,0" Clicked="Handle_Clicked"/>
+            </StackLayout>
+                
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>
